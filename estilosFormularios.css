@@ -1,0 +1,186 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+ * {
+   font-family: 'Ubuntu', sans-serif;
+   background-color: #161717;
+ }
+
+ .contenedor {
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   color: white;
+ }
+
+ .botones {
+   align-items: center;
+   display: flex;
+   gap: 30px;
+ }
+
+ .google-btn {
+   background-color: #2b72cf;
+   border: none;
+   border-radius: 5px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   padding: 2px;
+   cursor: pointer;
+   align-self: flex-start;
+ }
+
+ .google-btn:hover {
+   opacity: 0.75;
+
+ }
+
+ .google-btn picture {
+   width: 36px;
+   height: 36px;
+   background-color: white;
+   border-radius: 2px;
+ }
+
+ .google-btn picture img {
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .google-btn span {
+   color: white;
+   font-weight: 500;
+   padding: 10.5px;
+ }
+
+ .twitter-btn {
+   color: #bbb;
+   border: none;
+   width: 50px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ .twitter-btn:hover {
+   opacity: 0.75;
+ }
+
+ .twitter-btn picture img {
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+ }
+
+ /* linea separadora de los botones principales */
+ .separador {
+   display: flex;
+   width: 100%;
+   gap: 15px;
+ }
+
+ .separador hr {
+   flex-grow: 1;
+   border: none;
+   border-top: 1px solid #ccc;
+ }
+
+ .separador span {
+   color: #8b8b8b;
+ }
+
+ /* parte del formulario */
+
+ .seccion-inputs {
+   display: flex;
+   gap: 5px;
+   width: 100%;
+ }
+
+ form {
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   gap: 5px;
+ }
+
+ label {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+ }
+
+ label span {
+   margin-top: 5px;
+   font-weight: 700;
+ }
+
+ .seccion-inputs label input {
+   width: 80%;
+   background-color: #212121;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 10px;
+   outline: none;
+   font-size: 14pt;
+ }
+
+ label input {
+   width: 100%;
+   background-color: #212121;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 10px;
+   outline: none;
+   font-size: 14pt;
+   transition: background-color 0.5s, border 0.2s;
+ }
+
+ label input:hover {
+   background-color: #454045;
+   border: 1px solid rgb(230, 18, 212);
+   box-shadow: 0 0 4px #5e224f;
+ }
+
+ label input:focus {
+   background-color: #454045;
+   border: 1px solid rgb(230, 18, 212);
+   box-shadow: 0 0 4px #5e224f;
+ }
+
+ .label-checkbox {
+   margin-top: 15px;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .label-checkbox input[type="checkbox"] {
+   width: 20px;
+ }
+
+ .label-checkbox span {
+   font-weight: 400;
+ }
+
+ .submit-btn {
+   background-color: #ea4c89;
+   color: white;
+   font-weight: 500;
+   font-size: 14pt;
+   text-align: center;
+   margin: 20px;
+   margin-left: 35%;
+   padding: 15px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+
+ .submit-btn:hover {
+   opacity: 0.75;
+ }

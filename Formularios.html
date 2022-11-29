@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estilos Formularios</title>
+  <link rel="stylesheet" href="/estilosFormularios.css">
+</head>
+
+<body>
+
+  <div class="contenedor">
+    <h3>Resgistrate en los formularios</h3>
+
+    <div class="botones">
+      <button class="google-btn">
+        <picture>
+          <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="Logo-Google">
+        </picture>
+        <span>Registrarse con Google</span>
+      </button>
+
+      <button class="twitter-btn">
+        <picture>
+          <img src="https://cdn.iconscout.com/icon/free/png-256/twitter-circle-1868970-1583134.png" alt="Logo-Twitter">
+        </picture>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="separador">
+      <hr>
+      <span>O...</span>
+      <hr>
+    </div>
+
+    <form action="">
+      <div class="seccion-inputs">
+        <label for="name">
+          <span>Name</span>
+          <input id="name" type="text" name="name">
+        </label>
+
+        <label for="username">
+          <span>Username</span>
+          <input id="username" type="text" name="username">
+        </label>
+      </div>
+
+      <div>
+        <label for="email">
+          <span>Email</span>
+          <input id="email" type="email" name="email">
+        </label>
+
+        <label for="passsword">
+          <span>Password</span>
+          <input id="password" type="password" name="password" placeholder="6+ caracteres">
+        </label>
+      </div>
+
+
+      <div>
+        <label for="checkbox" class="label-checkbox">
+          <input type="checkbox" id="checkbox">
+          <span>Acepto las condiciones y el aviso legal</span>
+        </label>
+
+        <button type="submit" class="submit-btn">Crear Cuenta</button>
+      </div>
+
+
+  </div>
+  </form>
+
+  </div>
+
+</body>
+
+</html>
